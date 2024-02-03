@@ -25,7 +25,9 @@ import {MatListModule} from '@angular/material/list';
     MatSnackBarModule,
     MatListModule,
     HeaderComponent],
-  template: `<app-header></app-header>`,
+  template: `
+  <app-header></app-header>
+  <router-outlet></router-outlet>`,
 })
 
 export class AppComponent {
